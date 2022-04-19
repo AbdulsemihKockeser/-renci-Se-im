@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+   <EditText
+       android:id="@+id/edtadi"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Adı"
+       tools:ignore="MissingConstraints">
+
+   </EditText>
+
+   <EditText
+       android:id="@+id/edtsoyadi"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Soyadı"
+       tools:ignore="MissingConstraints">
+
+   </EditText>
+
+   <EditText
+       android:id="@+id/edtdogum"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Doğum Tarihi"
+       tools:ignore="MissingConstraints">
+
+   </EditText>
+
+   <EditText
+       android:id="@+id/edtsinif"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Sınıfı"
+       tools:ignore="MissingConstraints">
+
+   </EditText>
+
+   <Button
+       android:id="@+id/kayit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="10dp"
+       android:text="Kayıt"></Button>
+
+   <Button
+       android:id="@+id/listele"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="10dp"
+       android:text="Listele"></Button>
+</LinearLayout>
